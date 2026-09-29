@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#224b3d">
+  <title>Lesson 1 · 新概念两小时学习助手</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到学习内容</a>
+  <div id="error" role="alert" hidden></div>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="学习助手首页"><span class="brand-mark">N / 2</span><span>新概念学习室<small>ONE LESSON AT A TIME</small></span></a>
+    <div class="top-actions"><span class="local-label">本地学习 · 自动保存</span><a href="/api/export" download="Lesson-1-学习进度.json" class="text-link">导出进度 ↗</a></div>
+  </header>
+  <div id="loading" class="loading" role="status">正在打开你的学习记录…</div>
+  <div class="workspace" id="workspace" hidden>
+    <aside class="rail">
+      <p class="eyebrow">NEW CONCEPT ENGLISH / 02</p>
+      <div class="lesson-number">Lesson <strong>01</strong></div>
+      <p class="rail-subtitle">一课，两小时。<br>从听懂到自己讲出来。</p>
+      <nav id="stage-nav" aria-label="本课学习阶段"></nav>
+      <div class="rail-footer"><span id="task-count">0 / 20 个任务</span><div class="progress-track"><span id="progress-fill"></span></div><p>按任务计划用时计算完成度<br>勾选完成后才计入进度</p></div>
+    </aside>
+    <main id="main" tabindex="-1">
+      <div class="lesson-heading"><div><p class="eyebrow">120 MINUTES · 五步学习</p><h1>A Private<br class="desktop-break"> Conversation<span>私人谈话</span></h1></div><div class="completion"><span id="percent">0<small>%</small></span><span>本课完成度</span></div></div>
+      <div class="time-plan" aria-label="两小时计划"><span style="flex:20">听力 <b>20′</b></span><span style="flex:35">精读 <b>35′</b></span><span style="flex:25">跟读 <b>25′</b></span><span style="flex:25">复述 <b>25′</b></span><span style="flex:15">复盘 <b>15′</b></span></div>
+      <section class="audio-section" aria-label="课文原声">
+        <div class="section-line"><h2>课文原声</h2><span class="subtle">美音 · 1 分 19 秒</span></div>
+        <audio id="audio" controls preload="metadata" src="assets/audio/lesson-01.mp3">浏览器不支持音频播放，请使用 Chrome 或 Safari。</audio>
+        <div class="audio-tools"><button id="play-story" class="small-button">从课文开始播放</button><button id="replay" class="small-button">回退 5 秒</button><label for="speed">语速 <select id="speed"><option value="0.7">0.7×</option><option value="0.85">0.85×</option><option value="1" selected>1.0×</option><option value="1.1">1.1×</option></select></label><span id="audio-status" class="subtle" aria-live="polite">首次听力请先隐藏课文</span></div>
+      </section>
+      <div id="stage-content"></div>
+      <section class="notes-section" aria-labelledby="notes-title"><div class="section-line"><h2 id="notes-title">学习记录</h2><span id="save-status" class="subtle" role="status">已保存到本机</span></div><label id="note-label" for="notes">我的笔记</label><textarea id="notes" rows="6" maxlength="12000"></textarea><div class="notes-bottom"><label for="confidence">这一阶段的掌握度 <select id="confidence"><option value="">暂不评分</option><option value="1">1 / 5 · 还很生疏</option><option value="2">2 / 5 · 需要提示</option><option value="3">3 / 5 · 基本掌握</option><option value="4">4 / 5 · 比较熟练</option><option value="5">5 / 5 · 能独立运用</option></select></label><button id="save-notes" class="small-button">保存笔记</button></div></section>
+      <footer class="source-note">课文依据项目已导入的《新概念英语》二册；释义和练习为本助手编写。<br>本地文件保存进度；跟读录音可用手机或系统录音工具，页面不自动评判发音。</footer>
+    </main>
+    <aside class="coach-rail">
+      <section class="coach-card"><p class="eyebrow">YOUR NEXT STEP</p><h2>现在，做这一件事</h2><p id="next-stage" class="stage-tag"></p><h3 id="next-title"></h3><p id="next-instruction"></p><button id="go-next" class="primary">开始这一步 <span>→</span></button><p class="subtle" id="next-meta"></p></section>
+      <section class="timer-card"><div class="section-line"><h2 id="timer-stage">听力计时</h2><span id="timer-state" class="subtle">未开始</span></div><div id="timer-clock" class="timer-clock">00:00</div><p id="timer-budget" class="subtle"></p><button id="timer-toggle" class="small-button wide">开始计时</button><p id="total-time" class="subtle"></p><p class="timer-help">计时可暂停；到时后由你确认任务完成。</p></section>
+      <section class="report-card"><h2>向学习助手汇报</h2><p class="subtle">汇报当前打开的阶段，保存后给出下一步。</p><form id="report-form"><label for="report-status">这一步进行得怎样？</label><select id="report-status"><option value="progress">还在进行，记录进展</option><option value="blocked">卡住了，需要调整</option><option value="done">本阶段任务已全部完成</option></select><label for="report-note">进展或卡点</label><textarea id="report-note" rows="3" maxlength="6000" placeholder="例如：听了三遍，pay any attention 仍听不清。"></textarea><label for="reported-minutes">本阶段累计用时（选填）</label><input id="reported-minutes" type="number" min="0" max="1440" step="0.5" placeholder="分钟，包含之前已学的时间"><p class="subtle">自报用时与计时取较大值，不重复累加。</p><button type="submit" class="primary wide">保存汇报，告诉我下一步</button></form><p id="report-feedback" class="report-feedback" role="status"></p></section>
+      <details class="history"><summary>最近的学习汇报</summary><div id="history-list"></div></details>
+    </aside>
+  </div>
+</body>
+</html>

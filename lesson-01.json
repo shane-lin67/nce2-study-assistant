@@ -1,0 +1,449 @@
+{
+  "id": 1,
+  "title": "A Private Conversation",
+  "titleZh": "私人谈话",
+  "totalMinutes": 120,
+  "audio": "assets/audio/lesson-01.mp3",
+  "accent": "美音 · 本地原声",
+  "duration": 78.558189,
+  "source": "../NCE2-course-text.md",
+  "sourceNote": "课文与时间轴来自项目已导入文件；中文释义、练习与学习步骤为本助手编写。",
+  "sentences": [
+    {
+      "start": 9.77,
+      "text": "Why did the writer complain to the people behind him?",
+      "id": "s0",
+      "end": 15.91,
+      "zh": "作者为什么向坐在他身后的人抱怨？",
+      "note": "先带着这个问题听，不必先看中文。",
+      "question": true
+    },
+    {
+      "start": 15.91,
+      "text": "Last week I went to the theatre.",
+      "id": "s1",
+      "end": 19.39,
+      "zh": "上星期我去看戏。",
+      "note": "Last week 是过去时间；went 是 go 的过去式。go to the theatre 指去看戏。",
+      "question": false
+    },
+    {
+      "start": 19.39,
+      "text": "I had a very good seat.",
+      "id": "s2",
+      "end": 22.07,
+      "zh": "我的座位很好。",
+      "note": "had 是 have 的过去式；good seat 指观剧位置好。",
+      "question": false
+    },
+    {
+      "start": 22.07,
+      "text": "The play was very interesting.",
+      "id": "s3",
+      "end": 25.1,
+      "zh": "戏很有意思。",
+      "note": "interesting 形容事物令人感兴趣；interested 常形容人的感受。",
+      "question": false
+    },
+    {
+      "start": 25.1,
+      "text": "I did not enjoy it.",
+      "id": "s4",
+      "end": 27.43,
+      "zh": "我却看得不开心。",
+      "note": "did not 后用动词原形 enjoy；it 指这场戏。",
+      "question": false
+    },
+    {
+      "start": 27.43,
+      "text": "A young man and a young woman were sitting behind me.",
+      "id": "s5",
+      "end": 31.96,
+      "zh": "一男一女两个年轻人坐在我身后。",
+      "note": "were sitting 表示当时正在持续的状态；behind me 交代位置。",
+      "question": false
+    },
+    {
+      "start": 31.96,
+      "text": "They were talking loudly.",
+      "id": "s6",
+      "end": 34.59,
+      "zh": "他们大声地交谈着。",
+      "note": "were talking 是过去进行时；loudly 修饰 talking，说明说话方式。",
+      "question": false
+    },
+    {
+      "start": 34.59,
+      "text": "I got very angry.",
+      "id": "s7",
+      "end": 37.41,
+      "zh": "我变得非常生气。",
+      "note": "get + 形容词表示变得怎样；这里 got 是 get 的过去式。",
+      "question": false
+    },
+    {
+      "start": 37.41,
+      "text": "I could not hear the actors.",
+      "id": "s8",
+      "end": 40.64,
+      "zh": "我听不清演员在说什么。",
+      "note": "could not 表示当时不能；hear 强调听见，listen 强调主动听。",
+      "question": false
+    },
+    {
+      "start": 40.64,
+      "text": "I turned round.",
+      "id": "s9",
+      "end": 42.8,
+      "zh": "我转过身去。",
+      "note": "turn round = 转身。注意 turned 结尾的 /d/，不要额外加一个音节。",
+      "question": false
+    },
+    {
+      "start": 42.8,
+      "text": "I looked at the man and the woman angrily.",
+      "id": "s10",
+      "end": 47.27,
+      "zh": "我生气地看着那一男一女。",
+      "note": "look at + 对象；angrily 是副词，修饰 looked。比较：I got angry.",
+      "question": false
+    },
+    {
+      "start": 47.27,
+      "text": "They did not pay any attention.",
+      "id": "s11",
+      "end": 50.69,
+      "zh": "他们毫不理会。",
+      "note": "pay attention 表示注意、理会；pay attention to + 对象。这里是否定句，用 any。",
+      "question": false
+    },
+    {
+      "start": 50.69,
+      "text": "In the end, I could not bear it.",
+      "id": "s12",
+      "end": 54.98,
+      "zh": "最后，我实在忍不住了。",
+      "note": "in the end = 最后；bear 在这里是忍受，不是名词“熊”。",
+      "question": false
+    },
+    {
+      "start": 54.98,
+      "text": "I turned round again.",
+      "id": "s13",
+      "end": 57.75,
+      "zh": "我又一次转过身去。",
+      "note": "again 表示再次；复述时可用这一动作串联冲突。",
+      "question": false
+    },
+    {
+      "start": 57.75,
+      "text": "'I can't hear a word!' I said angrily.",
+      "id": "s14",
+      "end": 63.45,
+      "zh": "“我一个字也听不见！”我生气地说。",
+      "note": "a word 在否定句中强调“连一个字”；直接引语用现在时，叙述动词 said 用过去时。",
+      "question": false
+    },
+    {
+      "start": 63.45,
+      "text": "'It's none of your business,'",
+      "id": "s15",
+      "end": 66.27,
+      "zh": "“这不关你的事，”",
+      "note": "固定表达表示“这不关你的事”；语气强硬，日常礼貌沟通可换更温和的说法。",
+      "question": false
+    },
+    {
+      "start": 66.27,
+      "text": "the young man said rudely.",
+      "id": "s16",
+      "end": 69.0,
+      "zh": "那个年轻人粗鲁地说。",
+      "note": "rudely 修饰 said，表示说话方式粗鲁；与 angrily 一起模仿语气变化。",
+      "question": false
+    },
+    {
+      "start": 69.0,
+      "text": "'This is a private conversation!'",
+      "id": "s17",
+      "end": 73.6,
+      "zh": "“这是私人谈话！”",
+      "note": "private 是私人的；年轻人把作者抱怨听不到台词，理解成了想偷听他们说话。",
+      "question": false
+    }
+  ],
+  "stages": [
+    {
+      "id": "listening",
+      "name": "听力",
+      "en": "Listen",
+      "minutes": 20,
+      "headline": "先听懂发生了什么。",
+      "intro": "不看课文听三遍，先抓人物、地点和冲突，再定位听不懂的句子。",
+      "tasks": [
+        {
+          "id": "listening-1",
+          "minutes": 3,
+          "title": "盲听第一遍",
+          "instruction": "隐藏课文，原速听一遍。记下人物、地点和大概发生的事，允许用中文。"
+        },
+        {
+          "id": "listening-2",
+          "minutes": 5,
+          "title": "带着问题听第二遍",
+          "instruction": "回答：Where was the writer? Who was behind him? Why was he angry? 先写自己的答案。"
+        },
+        {
+          "id": "listening-3",
+          "minutes": 7,
+          "title": "第三遍定位障碍",
+          "instruction": "再听一遍。记下最多 3 处听不清的位置或时间；需要时用 0.85× 再听一次。"
+        },
+        {
+          "id": "listening-4",
+          "minutes": 5,
+          "title": "核对主旨",
+          "instruction": "展开听力参考答案，检查三个问题。用一句话回答课前问题，并保存还没听清的句子。"
+        }
+      ],
+      "noteLabel": "我的主旨答案 / 听不清的位置",
+      "placeholder": "建议写：地点、人物、为什么生气；卡在 00:47 的一句。",
+      "criterion": "能说明作者因为身后两人大声交谈而听不清演员台词；能列出需要精读核对的句子。",
+      "help": "选最难的一句，用 0.85× 听两次；看一句英文核对后关掉文本，再听一次。把仍不清楚的位置留下，接着进入精读。"
+    },
+    {
+      "id": "reading",
+      "name": "精读",
+      "en": "Read closely",
+      "minutes": 35,
+      "headline": "读懂每句话为什么这样写。",
+      "intro": "逐句拆解故事，把词组、时态和语气放回上下文。",
+      "tasks": [
+        {
+          "id": "reading-1",
+          "minutes": 10,
+          "title": "逐句读通",
+          "instruction": "展开课文与逐句讲解。先自己理解，再显示中文；说清 it、they 分别指谁。"
+        },
+        {
+          "id": "reading-2",
+          "minutes": 10,
+          "title": "掌握六个词组",
+          "instruction": "学习下方六个核心词组；遮住解释口头回忆，再选 3 个各造一句自己的句子。"
+        },
+        {
+          "id": "reading-3",
+          "minutes": 10,
+          "title": "拆句与改写",
+          "instruction": "比较 went / were sitting，angry / angrily，完成下方三道练习再展开答案。"
+        },
+        {
+          "id": "reading-4",
+          "minutes": 5,
+          "title": "合上讲解自查",
+          "instruction": "不看中文解释结尾的误会；回忆 pay attention to 和 bear 的意思。保存仍不懂的点。"
+        }
+      ],
+      "noteLabel": "我的造句 / 练习答案 / 疑问",
+      "placeholder": "在这里写 3 个自己的句子，以及你对结尾误会的解释。",
+      "criterion": "能解释故事结尾；能分清动作叙述与当时持续动作，并用 3 个核心词组造句。",
+      "help": "先只读 “They were talking loudly.” 和 “I got very angry.”：前句交代持续动作，后句叙述反应。用自己的话解释，再完成一题改写。"
+    },
+    {
+      "id": "shadowing",
+      "name": "跟读",
+      "en": "Speak along",
+      "minutes": 25,
+      "headline": "把读懂的句子说顺。",
+      "intro": "逐句模仿停顿和重音，然后跟上整篇的节奏。",
+      "tasks": [
+        {
+          "id": "shadowing-1",
+          "minutes": 8,
+          "title": "逐句听一句说一句",
+          "instruction": "使用句子播放按钮。每句听一次、暂停后模仿两次；重点练 were sitting、talking loudly、pay any attention。"
+        },
+        {
+          "id": "shadowing-2",
+          "minutes": 10,
+          "title": "整篇跟读三遍",
+          "instruction": "先以 0.85× 跟读一遍，再以原速跟读两遍。慢半拍跟上声音，不必追求逐字重合。"
+        },
+        {
+          "id": "shadowing-3",
+          "minutes": 5,
+          "title": "录一次并对比",
+          "instruction": "用手机录音或系统录音工具读全文，回听并与原声比较。记录最明显的 2 处差异。"
+        },
+        {
+          "id": "shadowing-4",
+          "minutes": 2,
+          "title": "修正两处发音",
+          "instruction": "只重练刚标出的 2 处，每处说 3 次。以能连贯说出为完成标准。"
+        }
+      ],
+      "noteLabel": "我的跟读卡点 / 两处差异",
+      "placeholder": "例如：turned round 的词尾吞掉了；最后一句还没有读出反驳的语气。",
+      "criterion": "完成一次自己的朗读回听，找出并重练 2 处差异；本助手不自动评判发音。",
+      "help": "退回一句一停，先以 0.85× 模仿短语 “pay any attention”，连贯说三次后再放回原句。"
+    },
+    {
+      "id": "retelling",
+      "name": "复述",
+      "en": "Retell",
+      "minutes": 25,
+      "headline": "脱离原文，讲出这个故事。",
+      "intro": "先借助关键词，再关掉提示，用自己的英语讲完整。",
+      "tasks": [
+        {
+          "id": "retelling-1",
+          "minutes": 5,
+          "title": "建立故事骨架",
+          "instruction": "只看五个提示词：theatre → good seat → noisy couple → complaint → misunderstanding。口头说出故事顺序。"
+        },
+        {
+          "id": "retelling-2",
+          "minutes": 8,
+          "title": "借关键词复述",
+          "instruction": "隐藏课文，用过去时讲 60–90 秒；卡住可用简单句，不回头逐字背诵。录下或写下自己的版本。"
+        },
+        {
+          "id": "retelling-3",
+          "minutes": 7,
+          "title": "对照内容自查",
+          "instruction": "展开复述自查表，检查五个要点。只修正 2 个影响理解的问题，再讲一次。"
+        },
+        {
+          "id": "retelling-4",
+          "minutes": 5,
+          "title": "完全脱稿复述",
+          "instruction": "关掉关键词和参考答案，再讲一遍。用 “Today I learned…” 补一句自己的体会，保存卡点。"
+        }
+      ],
+      "noteLabel": "我的复述 / 仍然卡住的地方",
+      "placeholder": "可以粘贴自己的英文复述让我批改，或记录遗漏了哪个故事要点。",
+      "criterion": "不看原文，覆盖地点、人物、噪声、抱怨、误会 5 个要点；允许使用更简单的表达。",
+      "help": "先缩短到 5 句：去看戏、身后有人、他们太吵、我抱怨、对方误会。先保住意思，再增加细节。"
+    },
+    {
+      "id": "review",
+      "name": "复盘",
+      "en": "Reflect",
+      "minutes": 15,
+      "headline": "把今天练过的变成明天记得的。",
+      "intro": "闭卷回忆，留下少量明确的复习目标。",
+      "tasks": [
+        {
+          "id": "review-1",
+          "minutes": 4,
+          "title": "闭卷回忆",
+          "instruction": "说出 3 个词组，再用英语回答为什么作者生气、年轻人误会了什么。"
+        },
+        {
+          "id": "review-2",
+          "minutes": 5,
+          "title": "完成出口小测",
+          "instruction": "完成下方 3 道出口题，答完再看参考答案。把错题改成一句正确表达。"
+        },
+        {
+          "id": "review-3",
+          "minutes": 4,
+          "title": "写下复盘",
+          "instruction": "记录今天最大的进步、仍需修正的 2 个点，并给本课掌握度评 1–5 分。"
+        },
+        {
+          "id": "review-4",
+          "minutes": 2,
+          "title": "安排下次复习",
+          "instruction": "写明明天哪一个时间用 10 分钟复习：盲听 2 分钟、脱稿复述 5 分钟、修正错句 3 分钟。"
+        }
+      ],
+      "noteLabel": "今天的收获 / 两个待改点 / 明天何时复习",
+      "placeholder": "建议写：收获 1 条；待改 2 条；明天 09:00 复习 10 分钟。",
+      "criterion": "留下 1 条收获、2 个待改点和一个具体复习时间。计时结束不会代替你确认完成。",
+      "help": "只选今天反复卡住的两个点，各写一个正确例句并读出。把它们作为明天 10 分钟复习的重点。"
+    }
+  ],
+  "vocabulary": [
+    [
+      "turn round",
+      "转过身去",
+      "I turned round when I heard my name."
+    ],
+    [
+      "pay attention to",
+      "注意；留意",
+      "Please pay attention to the ending."
+    ],
+    [
+      "in the end",
+      "最后；终于",
+      "In the end, we found our seats."
+    ],
+    [
+      "bear",
+      "忍受（本课词义）",
+      "I could not bear the noise."
+    ],
+    [
+      "It’s none of your business.",
+      "这不关你的事（语气强硬）",
+      "A gentler reply: I’d rather keep that private."
+    ],
+    [
+      "a private conversation",
+      "私人谈话",
+      "They were having a private conversation."
+    ]
+  ],
+  "listeningAnswers": [
+    [
+      "Where was the writer?",
+      "He was at the theatre."
+    ],
+    [
+      "Who was behind him?",
+      "A young man and a young woman were sitting behind him."
+    ],
+    [
+      "Why was he angry?",
+      "They were talking loudly, so he could not hear the actors."
+    ]
+  ],
+  "readingExercises": [
+    [
+      "把 They were talking loudly. 改为否定句。",
+      "They were not talking loudly."
+    ],
+    [
+      "选词：I got (angry / angrily). I looked at them (angry / angrily).",
+      "angry；angrily。前者描述我的状态，后者说明我看他们的方式。"
+    ],
+    [
+      "按自然语序排列：to the theatre / I / last week / went",
+      "I went to the theatre last week. 或 Last week I went to the theatre."
+    ]
+  ],
+  "retellChecklist": [
+    "交代上周去剧院看戏，座位好、戏有趣。",
+    "说明一男一女坐在作者身后。",
+    "说明他们大声交谈，作者听不到台词。",
+    "讲清作者转身示意、对方不理会、作者出声抱怨。",
+    "说明年轻人误以为作者想听他们的私人谈话。"
+  ],
+  "retellSample": "Last week, I went to the theatre. My seat was good, but I could not enjoy the play. A young couple behind me were talking loudly, so I could not hear the actors. I turned round, but they ignored me. Finally, I complained. The young man thought I wanted to listen to their conversation and replied rudely.",
+  "exitQuiz": [
+    [
+      "填空：They did not pay any _____.",
+      "attention"
+    ],
+    [
+      "把“我无法忍受这噪声”说成过去时。",
+      "I could not bear the noise."
+    ],
+    [
+      "用英语解释故事最后的误会（表达意思即可）。",
+      "The young man thought the writer wanted to hear their conversation, but the writer wanted to hear the actors."
+    ]
+  ]
+}
